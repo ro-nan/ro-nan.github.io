@@ -5,6 +5,4 @@ draft = false
 +++
 ## Introduction
 
-I have lots to say! I have lots to say! I have lots to say! I have lots to say! I have lots to say! I have lots to say! I have lots to say! I have lots to say! I have lots to say! I have lots to say! I have lots to say! I have lots to say! 
-
-**Anyway,** I have lots to say! I am 3rd most important
+Hello, world! This is my first post on my new blog. I'm excited to share my thoughts and experiences with you. Stay tuned for more updates! (Copilot autofilled this)
