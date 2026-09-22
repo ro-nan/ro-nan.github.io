@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Atavian";
+  src: url("/fonts/Atavian-REGULAR.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BodoniCompressed";
+  src: url("/fonts/Bodoni Z37 M Compressed Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GolifezBrightSerif";
+  src: url("/fonts/Golifez Bright Serif - Personal Demo.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ValeriaSecret";
+  src: url("/fonts/ValeriaSecret-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Atavian', 'Segoe UI', sans-serif;
+  font-variant-numeric: oldstyle-nums;
+}
+
+main article,
+main section,
+article,
+section {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+h2 {
+  font-family: 'Atavian', 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #3b3b3b;
+  line-height: 2;
+}
+
+p:first-of-type::first-letter {
+  font-family: 'ValeriaSecret', 'Segoe UI', sans-serif;
+  text-transform: lowercase;
+  font-size: 200%;  
+  font-weight: bold;
+  margin-right: 6px;
+  margin-top: 5px;
+  float: left;
+}
+
+.dim, .f1 {
+  font-family: 'ValeriaSecret', 'Segoe UI', sans-serif;
+  text-transform: lowercase;
+}
+
+.f3 {
+  font-family: 'ValeriaSecret';
+  text-transform: lowercase;
+  margin: revert !important;
+  padding-top: 10px;
+  transform: scale(1, 1.2);
+}
+
+.dib {
+  padding-top: 0px;
+  padding-bottom: 3px;
+}
+
+.tc-l{
+  display: flex;
+  justify-content: center;
+}
+
+.f2 {
+  font-family: 'ValeriaSecret', 'Segoe UI', sans-serif;
+  text-transform: lowercase;
+  font-size: 32px;
+  transform: scale(3, 6.5);
+  color: #f0f0f0;
+  width: 10%;
+}
+
+time {
+  font-family: 'Atavian', 'Segoe UI', sans-serif;
+  position: relative;
+  top: 20px;
+}
+
+a {
+  font-family: 'ValeriaSecret', 'Segoe UI', sans-serif;
+  text-transform: lowercase;
+}
+
+.b--moon-gray {
+  border-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.hover-bg-moon-gray:hover {
+  border-color: #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.pb7{
+  min-height: 85.7vh;
+  padding: 0;
+}
+
+.pa3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-100{
+  width: 50vw;
+}
+
+footer{
+  width: 100vw !important;
+}
+
+.mb4{
+  margin: 0;
+}
