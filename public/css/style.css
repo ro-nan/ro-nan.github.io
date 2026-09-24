@@ -41,7 +41,7 @@ section {
   padding-right: 0 !important;
 }
 
-.blah h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Atavian', 'Segoe UI', sans-serif;
   color: #333;
 }
@@ -62,9 +62,17 @@ p:first-of-type::first-letter {
   float: left;
 }
 
+p:first-of-type::first-line {
+  font-weight: bold;
+}
+
 .dim, .f1 {
   font-family: 'ValeriaSecret', 'Segoe UI', sans-serif;
   text-transform: lowercase;
+}
+
+.f1 {
+  line-height: 1.4;
 }
 
 .f3 {
@@ -80,6 +88,20 @@ p:first-of-type::first-letter {
   padding-bottom: 3px;
 }
 
+@media (max-width: 623px) {
+  .dib {
+    width: 10px;
+  }
+  .f2 {
+    margin: -6px;
+  }
+}
+@media (max-width: 448px) {
+  .dib {
+    visibility: hidden;
+  }
+}
+
 .tc-l{
   display: flex;
   justify-content: center;
@@ -91,13 +113,18 @@ p:first-of-type::first-letter {
   font-size: 32px;
   transform: scale(3, 6.5);
   color: #f0f0f0;
-  width: 10%;
+  text-wrap-mode: nowrap;
 }
 
 time {
   font-family: 'Atavian', 'Segoe UI', sans-serif;
   position: relative;
   top: 20px;
+}
+
+span.db {
+  font-family: 'ValeriaSecret', 'Segoe UI', sans-serif;
+  text-transform: lowercase;
 }
 
 a {
@@ -115,6 +142,10 @@ a {
   border-color: #000000;
   background-color: #ffffff;
   color: #000000;
+}
+
+div.bg-black {
+  height: 280px;
 }
 
 .pb7{
